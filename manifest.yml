@@ -1,0 +1,6 @@
+package: myhouse-service-ads1x15
+release: 1
+version: development
+git: myhouse-project/myhouse-service-ads1x15
+modules:
+  - service/ads1x15
