@@ -15,7 +15,7 @@
 
 import Adafruit_ADS1x15
 
-from sdk.module.service import Service
+from sdk.python.module.service import Service
 
 class Ads1x15(Service):
     # What to do when initializing

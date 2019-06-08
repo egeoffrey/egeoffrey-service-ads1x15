@@ -1,5 +1,5 @@
 package: myhouse-service-ads1x15
-revision: 1
+revision: 2
 version: development
 git: myhouse-project/myhouse-service-ads1x15
 modules:
