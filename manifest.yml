@@ -1,6 +1,11 @@
 package: myhouse-service-ads1x15
-revision: 2
+revision: 3
 version: development
-git: myhouse-project/myhouse-service-ads1x15
+github: myhouse-project/myhouse-service-ads1x15
+dockerhub: myhouse-project/myhouse-service-ads1x15
+container_config:
+  privileged: true
+description: retrieve values from a ads1x15 analog to digital converter
+tags: service ads1x15 analog
 modules:
   - service/ads1x15
