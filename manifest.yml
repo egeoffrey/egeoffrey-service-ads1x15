@@ -1,5 +1,6 @@
+manifest_schema: 1
 package: myhouse-service-ads1x15
-revision: 3
+revision: 4
 version: development
 github: myhouse-project/myhouse-service-ads1x15
 dockerhub: myhouseproject/myhouse-service-ads1x15
@@ -8,4 +9,29 @@ container_config:
 description: retrieve values from a ads1x15 analog to digital converter
 tags: service ads1x15 analog
 modules:
-  - service/ads1x15
+  - service/ads1x15:
+      description: retrieve values from a ads1x15 analog to digital converter
+      service_configuration: 
+        active:
+          - name: channel
+            description: Channel to use
+            format: int
+            placeholder: 2
+            required: true
+          - name: type
+            description: Converter type
+            format: ads1115|ads1015
+            required: true
+          - name: address
+            description: The address to use
+            placeholder: '0x49'
+            required: true
+            format: string
+          - name: address
+            description: Converter gain
+            required: true
+            format: 2/3|1|2|4|8|16
+          - name: output
+            description: What to output
+            required: true
+            format: volt|raw|integer|percentage
