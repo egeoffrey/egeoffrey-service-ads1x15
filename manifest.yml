@@ -4,6 +4,7 @@ container_config:
 description: retrieve values from a ads1x15 analog to digital converter
 dockerhub: myhouseproject/myhouse-service-ads1x15
 github: myhouse-project/myhouse-service-ads1x15
+icon: ruler
 manifest_schema: 2
 modules:
 - service/ads1x15:
@@ -33,6 +34,6 @@ modules:
         name: output
         required: true
 package: myhouse-service-ads1x15
-revision: 5
+revision: 6
 tags: service ads1x15 analog
 version: 1.0
