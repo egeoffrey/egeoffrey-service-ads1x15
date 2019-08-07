@@ -2,8 +2,8 @@ branch: development
 container_config:
   privileged: true
 description: retrieve values from a ads1x15 analog to digital converter
-dockerhub: myhouseproject/myhouse-service-ads1x15
-github: myhouse-project/myhouse-service-ads1x15
+dockerhub: egeoffrey/egeoffrey-service-ads1x15
+github: egeoffrey/egeoffrey-service-ads1x15
 icon: ruler
 manifest_schema: 2
 modules:
@@ -33,7 +33,7 @@ modules:
         format: volt|raw|integer|percentage
         name: output
         required: true
-package: myhouse-service-ads1x15
-revision: 6
+package: egeoffrey-service-ads1x15
+revision: 7
 tags: service ads1x15 analog
 version: 1.0
