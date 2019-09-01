@@ -10,7 +10,7 @@ modules:
 - service/ads1x15:
     description: retrieve values from a ads1x15 analog to digital converter
     service_configuration:
-      active:
+      pull:
       - description: Channel to use
         format: int
         name: channel
@@ -34,6 +34,6 @@ modules:
         name: output
         required: true
 package: egeoffrey-service-ads1x15
-revision: 8
+revision: 9
 tags: service ads1x15 analog
 version: 1.0

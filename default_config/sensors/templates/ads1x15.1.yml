@@ -11,7 +11,7 @@ service:
     address: 0x49
     gain: 1
     output: percentage
-  mode: active
+  mode: pull
   name: ads1x15
   schedule:
     minutes: 10
