@@ -67,4 +67,4 @@ service ads1x15 analog
 
 ## Version
 
-The version of this egeoffrey-service-ads1x15 is 1.0-10 on the development branch.
+The version of this egeoffrey-service-ads1x15 is 1.0-11 on the master branch.
